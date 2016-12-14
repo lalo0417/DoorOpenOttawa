@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/listBackground2">
+
+    <EditText
+        android:id="@+id/editExistingBuildingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:background="@color/common_signin_btn_dark_text_default"
+        android:ems="10"
+        android:hint="Building Name"
+        android:inputType="textPersonName"
+        android:padding="5px" />
+
+    <EditText
+        android:id="@+id/editExistingBuildingAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:background="@color/common_signin_btn_dark_text_default"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:padding="5px" />
+
+    <EditText
+        android:id="@+id/editExistingBuildingDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_margin="15px"
+        android:layout_weight="0.22"
+        android:background="@color/common_signin_btn_dark_text_default"
+        android:ems="10"
+        android:hint="Description"
+        android:scrollbars="vertical"
+        android:padding="5px"
+        android:inputType="textMultiLine"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="15px"
+            android:text="save" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonSave"
+            android:layout_alignParentStart="true"
+            android:layout_margin="15px"
+            android:text="Cancel" />
+
+
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+</LinearLayout>
