@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Doors Open</string>
+    <string name="building_name_placeholder">Building name</string>
+    <string name="address_placeholder">Address</string>
+    <string name="action_about">About</string>
+    <string name="sort_az">Sort A-Z</string>
+    <string name="sort_za">Sort Z-A</string>
+    <string name="action_search">Search</string>
+    <string name="action_add">Add Building</string>
+    <string name="author" translatable="false">Caleb Lalonde-Sauve (lalo0417)</string>
+    <string name="search_hint">Search for a building</string>
+    <string name="sort_dist">Distance</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+</resources>
